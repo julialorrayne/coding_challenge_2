@@ -24,3 +24,32 @@ let employee = {
 employee.department = 'Finance'; //changed department to Finance
 
 console.log(employee);
+
+//Task 4: Array of Objects
+
+let customers = [
+    {
+    name: 'Maria', 
+    email: 'maria@usf.edu',
+    purchaseAmount: 1000
+    },
+    {
+    name : 'Gaby',
+    email : 'gaby@usf.edu',
+    purchaseAmount : 2000
+    },
+    {
+    name : 'Julia',
+    email : 'julia@usf.edu',
+    purchaseAmount : 3000
+    }
+]; //created an array with 3 objects
+
+customers.push(
+    {
+    name : 'Juliana',
+    email : 'juliana@usf.edu',
+    purchaseAmount : 4000
+    }
+) //added a new object to customers array
+console.log(customers);
