@@ -13,3 +13,14 @@ average = ((scores[0]+scores[1]+scores[2]+scores[3]+scores[4])/5); //calculated 
 
 console.log(scores);
 console.log(average);
+
+//Task 3: Working with Objects
+let employee = {
+    name: 'Julia',
+    age: 22,
+    department: 'Technology',
+    isActive: 'yes'
+};  //created employee object
+employee.department = 'Finance'; //changed department to Finance
+
+console.log(employee);
