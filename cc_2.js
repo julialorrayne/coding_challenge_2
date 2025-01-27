@@ -53,3 +53,17 @@ customers.push(
     }
 ) //added a new object to customers array
 console.log(customers);
+
+//Task 5: Object Methods
+let order = {
+    orderid : '1415',
+    customerName : 'Kate',
+    amount : 6000,
+    calculatedTax : function()
+    {
+        return this.amount * 0.1;
+    }
+}; //created and object with the calculateTax method
+
+console.log(order);
+console.log('Tax amount:',order.calculatedTax());
